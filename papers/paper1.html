@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paper 1 on Distribics Technology</title>
+    <title>The Problem with Media Recommender Systems Today</title>
     <style>
         * {
             margin: 0;
@@ -202,6 +202,11 @@
             color: rgba(167, 139, 250, 1);
         }
 
+        .abstract p {
+            text-align: justify;
+            line-height: 1.8;
+        }
+
         /* Download Button */
         .download-section {
             text-align: center;
@@ -254,7 +259,7 @@
     <!-- Header Navigation -->
     <header class="header-nav" id="headerNav">
         <nav class="nav-container">
-            <a href="index.html" class="nav-logo">DISTRIBICS</a>
+            <a href="index.html" class="nav-logo">ARTICLES</a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="papers.html">Papers</a></li>
@@ -265,98 +270,52 @@
     <!-- Paper Content -->
     <article class="paper-container">
         <header class="paper-header">
-            <h1 class="paper-main-title">Paper 1 on Distribics Technology</h1>
-            <div class="paper-meta">Distribics Research Team</div>
-            <div class="paper-date">January 2025</div>
+            <h1 class="paper-main-title">The Problem with Media Recommender Systems Today</h1>
+            <div class="paper-meta">Bill Seaward</div>
         </header>
 
         <section class="abstract">
-            <h2>Abstract</h2>
+            <h2>Overview</h2>
             <p>
-                This paper presents a comprehensive exploration of Distribics Technology, a novel approach to distributed systems architecture. We examine the theoretical foundations, core principles, and practical applications of this technology in modern computing environments. Our research demonstrates how Distribics Technology addresses key challenges in scalability, reliability, and performance optimization in distributed networks.
+                A fundamental flaw in the way media recommendation systems currently operate lies at the heart of why digital experiences often leave us dissatisfied and sometimes unwell. A new approach to indexing and discovering content is the solution.
             </p>
         </section>
 
         <section class="paper-content">
-            <h2>1. Introduction</h2>
             <p>
-                Distributed systems have become the backbone of modern computing infrastructure. As we continue to scale our digital systems to meet growing demands, new paradigms are needed to address the inherent complexities of distributed architectures. Distribics Technology emerges as a response to these challenges, offering a fresh perspective on how we design, implement, and maintain distributed systems.
-            </p>
-            <p>
-                The fundamental premise of Distribics Technology lies in its approach to system decomposition and recomposition. Rather than treating distributed components as isolated entities, Distribics views them as interconnected elements within a larger, self-organizing framework.
+                It's well-established that having freewill depends not just on having the freedom of choice, but also on the freedom of one's desires. If our desires are not aligned with our choices, or if some external force constrains our desires, then the freedom to act alone may not be sufficient for our freedom of choice. This insight about how our desires relate to our freedom is relevant today for the lives we inhabit inside media recommendation systems, because these systems often ignore our deepest desires.
             </p>
 
-            <h2>2. Theoretical Foundations</h2>
             <p>
-                The theoretical underpinnings of Distribics Technology draw from multiple disciplines, including graph theory, complexity science, and information theory. At its core, the technology leverages the concept of emergent behavior in complex systems.
-            </p>
-            
-            <h3>2.1 Graph-Based Architecture</h3>
-            <p>
-                Distribics systems are modeled as dynamic graphs where nodes represent computational units and edges represent communication channels. This graph-based approach allows for flexible reconfiguration and adaptive routing strategies that respond to changing network conditions.
+                Our digital lives are immersed in recommender systems. Most of them work by modeling user choices and using the model to predict how content will cause us to act. For instance, on many platforms the recommendations are selected based on what the model predicts will keep us on the platform the longest.
             </p>
 
-            <h3>2.2 Self-Organization Principles</h3>
             <p>
-                Drawing inspiration from biological systems, Distribics Technology implements self-organization mechanisms that enable the system to adapt without centralized control. These mechanisms include:
-            </p>
-            <ul>
-                <li>Autonomous load balancing based on local information</li>
-                <li>Emergent consensus protocols for distributed decision-making</li>
-                <li>Self-healing capabilities through redundant pathways</li>
-                <li>Adaptive resource allocation using feedback loops</li>
-            </ul>
-
-            <h2>3. Core Components</h2>
-            <p>
-                The Distribics architecture consists of several key components that work together to create a robust distributed system:
+                To build these models of users, existing platforms rely almost entirely on the implicit actions we take, like clicks and watch time, rather than explicit inputs, like a user-reported preference or feeling. This is a problem as our emotions are obviously fundamental to the development of our desires and the execution of our choices. But if systems do not provide a means of easily reflecting our feelings and our desires in our choices then our actual desires and our explicit actions may start to diverge. For example, we might find that despite spending considerable time on a platform we also quite dislike it.
             </p>
 
-            <h3>3.1 Node Architecture</h3>
             <p>
-                Each node in a Distribics system is designed with autonomy in mind. Nodes maintain local state, execute computations, and make routing decisions based on their immediate neighborhood information. This localized decision-making reduces the need for global coordination and improves system resilience.
+                This disconnection between our choices and desires is possible because behavior doesn't mirror desires in a perfect one-to-one way. Choices are more like an ocean current, the net result of competing and conflicting desires that are in a constant state of experiment and change. It's been said that we have desires about desires, which reflect our changing personal identities and goals. We act, get feedback from the world, weigh our competing desires, change our feelings and attitudes, and act again. And it's in the continuous unfolding of this process that our freedom of choice emerges.
             </p>
 
-            <h3>3.2 Communication Protocol</h3>
             <p>
-                The Distribics communication protocol employs a hybrid approach combining synchronous and asynchronous messaging. This allows for both real-time interactions when needed and eventual consistency for less critical operations.
+                But current recommendation systems don't consider our internal mental states in modeling our experience, so as we engage the current platforms we're training the models on a limited version of ourselves. These models are then used to narrow the range of our future recommendations, which increases the probability that you'll click on more of what you did earlier, simply because there's less variety. And when you do click on more of the same, that in turn, strengthens the previous model again, and your future recommendations become even more narrow, and so on.
             </p>
 
-            <h2>4. Implementation Considerations</h2>
             <p>
-                Implementing Distribics Technology requires careful consideration of several factors:
-            </p>
-            <ul>
-                <li><strong>Network Topology:</strong> The choice of network topology significantly impacts system performance and resilience</li>
-                <li><strong>Fault Tolerance:</strong> Built-in redundancy and failover mechanisms ensure continuous operation</li>
-                <li><strong>Scalability:</strong> The system must gracefully handle addition and removal of nodes</li>
-                <li><strong>Security:</strong> End-to-end encryption and distributed authentication mechanisms</li>
-            </ul>
-
-            <h2>5. Performance Analysis</h2>
-            <p>
-                Our experimental evaluation demonstrates that Distribics Technology achieves significant improvements in key performance metrics compared to traditional distributed systems approaches. The system shows linear scalability up to thousands of nodes while maintaining sub-second response times for most operations.
+                This is a feedback loop in which our initial choices become unnaturally magnified focal points of interest over time. So the probability that a fleeting interest will become an entrenched habit in the future can increase in a very unnatural way. This kind of choice recursion is new in communications technology due to the degree of personal immersion and immediacy of recommendation adjustment that digital experiences enable.
             </p>
 
-            <h2>6. Future Directions</h2>
             <p>
-                The development of Distribics Technology opens several avenues for future research. We are particularly interested in exploring applications in edge computing, Internet of Things (IoT) networks, and quantum distributed systems. Additionally, we plan to investigate machine learning techniques for optimizing system parameters dynamically.
+                Failing to appreciate this relationship between our deepest thoughts and desires and content recommendation design is part of why social media, while fun at times, makes some people miserable and many of us dissatisfied, and yet we don't reduce its usage. There are many contexts where recommender systems are less concerning, such as in the curation of specific media, like music or movie recommendations. But our online environments are becoming more than just entertainment delivery systems and are increasingly immersive proxies for the real world. As more of our analog life moves online, these concerns get more significant.
             </p>
 
-            <h2>7. Conclusion</h2>
             <p>
-                Distribics Technology represents a significant step forward in distributed systems design. By embracing principles of self-organization and emergent behavior, we can build systems that are more resilient, scalable, and adaptable than traditional approaches allow. As we continue to push the boundaries of distributed computing, technologies like Distribics will play a crucial role in shaping the future of our digital infrastructure.
+                The solution lies in creating digital experiences that better reflect our deepest desires. This means adapting recommendation systems to better appreciate user outcomes, satisfaction, and overall psychological experience. This could be enabled by creating a new layer of content tagging and connecting the moods, goals, and other more meaningful internal experiences of users with the content. Third, we must design low-friction interfaces that let users easily report on their deepest ever-changing desires and filter content based on the moods, desires, and outcomes they want.
             </p>
 
-            <h2>References</h2>
             <p>
-                [1] Smith, J. et al. (2024). "Emergent Behavior in Distributed Systems." Journal of Distributed Computing, 45(3), 234-251.
-            </p>
-            <p>
-                [2] Chen, L. (2023). "Graph-Based Architectures for Scale." Proceedings of the International Conference on Distributed Systems, 112-125.
-            </p>
-            <p>
-                [3] Patel, R. & Kumar, A. (2024). "Self-Organizing Networks: Theory and Practice." MIT Press.
+                Algorithms may determine digital design but they should enable our deepest desires to determine our digital experience.
             </p>
         </section>
 
