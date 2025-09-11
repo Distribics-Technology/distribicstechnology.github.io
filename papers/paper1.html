@@ -294,6 +294,60 @@
                 The era of choice recursion in content recommendation must end. The algorithms that determine digital design should not also determine who we, who we become, or how we define our own satisfaction. Rather, they should enable us to find digital experiences that reflect our changing internal desires as accurately, and with as little latency, as possible.
             </p>
         </section>
+
+        /* Contact Section */
+        .contact-section {
+            padding: 60px 40px 100px;
+            background: transparent;
+            position: relative;
+            text-align: center;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 16px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #8b5cf6 100%);
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            border-radius: 50px;
+            box-shadow: 
+                0 4px 15px rgba(102, 126, 234, 0.3),
+                0 0 20px rgba(118, 75, 162, 0.2);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .contact-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 
+                0 8px 25px rgba(102, 126, 234, 0.4),
+                0 0 30px rgba(118, 75, 162, 0.3);
+            background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 50%, #a78bfa 100%);
+        }
+
+        .contact-button:active {
+            transform: translateY(0px);
+        }
+
+        .contact-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .contact-button:hover::before {
+            left: 100%;
+        }
         
     </article>
 
